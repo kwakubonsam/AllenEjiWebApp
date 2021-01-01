@@ -15,7 +15,7 @@ function App() {
     <>
       {" "}
       <div className="container-fluid">
-        <ToastContainer autoClose={8000} hideProgressBar={false} />
+        <ToastContainer autoClose={3000} hideProgressBar={false} />
         <Navigation logo={logo} />
         <Route path="/" exact component={Homepage} />
         <Route path="/form" exact component={ContactPage} />

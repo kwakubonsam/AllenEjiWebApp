@@ -4,10 +4,7 @@ import eji from "../Logos/EJII.png";
 import pc from "../Logos/dinah.png";
 export const PrincipalInvestigator = () => {
   return (
-    <div
-      className="border-0"
-      style={{ width: "12rem", marginLeft: "8em", marginTop: "2em" }}
-    >
+    <div className="border-0" style={{ width: "12rem", margin: "20px auto 0" }}>
       <img
         className="card-img-top border-0 rounded-circle"
         src={pi}
@@ -20,10 +17,7 @@ export const PrincipalInvestigator = () => {
 
 export const ProgramCordinator = () => {
   return (
-    <div
-      className="border-0"
-      style={{ width: "12rem", marginLeft: "12em", marginTop: "2em" }}
-    >
+    <div className="border-0" style={{ width: "12rem", margin: "20px auto 0" }}>
       <img
         className="card-img-top border-0 rounded-circle "
         src={pc}

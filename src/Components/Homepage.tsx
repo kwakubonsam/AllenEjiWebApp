@@ -55,7 +55,7 @@ export const Homepage = () => {
           <div className="col-sm-6">
             <PrincipalInvestigator />
             <div>
-              <h5 className="" style={{ marginLeft: "3em" }}>
+              <h5 className="" style={{ marginLeft: "8em" }}>
                 Dr. Oluwole Ariyo - Principal Investigator
               </h5>
             </div>
@@ -64,7 +64,7 @@ export const Homepage = () => {
           <div className="col-sm-6">
             <ProgramCordinator />
             <div>
-              <h5 className="" style={{ marginLeft: "8em" }}>
+              <h5 className="" style={{ marginLeft: "10em" }}>
                 Dinah Williams - Program Cordinator
               </h5>
             </div>
