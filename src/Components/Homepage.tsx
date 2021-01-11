@@ -19,7 +19,7 @@ export const Homepage = () => {
       <section>
         <div>
           <h3 style={{ textAlign: "center", marginBottom: "1em" }}>
-            What is Environmental Justice Institue About
+            What's  Environmental Justice Institue About
           </h3>
         </div>
       </section>
