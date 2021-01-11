@@ -10,14 +10,16 @@ import "../Css/App.css";
 import { ContactPage } from "../Components/ContactForm";
 import { Route } from "react-router-dom";
 import { Homepage } from "../Components/Homepage";
+import {Gallery} from "../Components/GalleryPage"
 function App() {
   return (
     <>
       {" "}
       <div className="container-fluid">
-        <ToastContainer autoClose={3000} hideProgressBar={false} />
+        <ToastContainer autoClose={3000} hideProgressBar={true} />
         <Navigation logo={logo} />
         <Route path="/" exact component={Homepage} />
+        <Route path="/gallery" exact component={Gallery} />
         <Route path="/form" exact component={ContactPage} />
       </div>
     </>

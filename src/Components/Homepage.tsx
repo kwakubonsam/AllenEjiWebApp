@@ -6,6 +6,7 @@ import { ProgramCordinator } from "../Components/ProgramOwners";
 import { AboutPage } from "../Components/About";
 import { Images } from "../Components/ImageSlider";
 
+
 export const Homepage = () => {
   return (
     <>
@@ -19,7 +20,7 @@ export const Homepage = () => {
       <section>
         <div>
           <h3 style={{ textAlign: "center", marginBottom: "1em" }}>
-            What's  Environmental Justice Institue About
+            What is Environmental Justice Institue About
           </h3>
         </div>
       </section>

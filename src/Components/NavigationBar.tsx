@@ -11,7 +11,7 @@ export const Navigation = (props: any) => {
           {" "}
           Project
         </NavLink>
-        <NavLink to="About" className="nav-link text-white">
+        <NavLink to="/gallery" className="nav-link text-white">
           Gallery
         </NavLink>
         <NavLink to="/me" className="nav-link text-white">
